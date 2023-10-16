@@ -1,57 +1,58 @@
-<html lang="en">
-    <head>
-        
-        <meta charset="UTF-8">
-        <title>Document</title>
-        <style>
-            .box{
-                background-color: grey;
-                color: grey;
-                width: 100px;
-                height: 100px;
-                margin-bottom: 50px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="header">
-                <h1>MyNewWebsite</h1>
-                <ul>
-
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About us</a></li>
-                </ul>
-            </div>
-            <div class="cover"></div>
-            <div class="content">
-            <h1>Judul Artikel</h1>
-            <h4>ditulis oleh saya</h4>
-
-            <table>
-                <p>YOASOBI adalah superduo musik asal Jepang yang dibentuk oleh Sony Music Entertainment Japan, 
-                    terdiri dari produser Vocaloid Ayase, dan penyanyi-penulis lagu Ikura. Diwakili oleh slogan 
-                    "novel into music" (novel ke dalam musik), duo ini telah merilis lagu berdasarkan novel yang 
-                    dikirim di Monogatary.com [ja], sebuah media sosial yang berpusat pada novel yang dioperasikan 
-                    oleh label mereka, yang juga berasal dari berbagai media seperti novel yang ditulis oleh penulis 
-                    profesional, buku, dan surat.
-                    Setelah viral di media sosial, singel debut Yoasobi tahun 2019, "Yoru ni Kakeru", 
-                    memberi mereka terobosan dengan mencapai puncak Billboard Japan Hot 100 selama enam minggu tidak 
-                    berturut-turut dan tangga lagu akhir tahun 2020, dan menjadi lagu pertama yang disertifikasi sebagai
-                    diamond untuk penjaliran oleh Recording Industry Association of Japan (RIAJ). Ini diikuti oleh singel 
-                    sukses lainnya, seperti "Gunjō" yang terinspirasi dari Blue Period, dan tema musim kedua Beastars 
-                    "Kaibutsu". Dua EP pertama grup ini, The Book dan The Book 2 (keduanya dirilis pada tahun 2021), 
-                    memuncak di nomor dua pada Oricon Albums Chart. Mereka juga merilis EP berbahasa Inggris, E-Side, 
-                    dan E-Side 2.
-                </p>
+<html> lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>MyWebsite</h1>
+            <table border="1" cellspacing="0">
+                <tr>
+                    <td><a href="#">Home</a></td>
+                    <td><a href="#Product">Product</a></td>
+                    <td><a href="#Services">Services</a></td>
+                    <td><a href="#Contact">About us</a></td>
+                </tr>
             </table>
-            </div>
-            <div class="footer">
-                <p>copright by Arippp</p>
-            </div>
         </div>
-    </body>
+        <div class="cover"></div>
+                <!-- The sidebar -->
+    <div class="sidebar">
+        <a class="active" href="#home">Home</a>
+        <a href="#Product">Product</a>
+        <a href="#Services">Services</a>
+        <a href="#Contact">About</a>
+    </div>
+        <div id="content" class="content">
+            <table border="1" cellspacing="0">
+                <tr>
+                    <td>
+            <h1>YOASOBI</h1>
+            <h4>ditulis oleh Muhammad Syarifuddin</h4>
+            <p>YOASOBI adalah superduo musik asal Jepang yang dibentuk oleh Sony Music Entertainment Japan, 
+                terdiri dari produser Vocaloid Ayase, dan penyanyi-penulis lagu Ikura. Diwakili oleh slogan 
+                "novel into music" (novel ke dalam musik), duo ini telah merilis lagu berdasarkan novel yang 
+                dikirim di Monogatary.com [ja], sebuah media sosial yang berpusat pada novel yang dioperasikan
+                oleh label mereka, yang juga berasal dari berbagai media seperti novel yang ditulis oleh 
+                penulis profesional, buku, dan surat.</p>
+        <div id="Product" class="Product">
+            <h4>Product</h4>
+            <p>Belum ada produk cuy</p>
+         <div id="Services" class="Services">
+            <h4>Services</h4>
+            <p>apakah ada gangguan?</p>
+        <div id="Contact" class="Contact">
+            <h4>Contact</h4>
+            <p>Kalian dapat menghubungi admin</p>
+        </div>
+        <div class="footer">
+            <p>copyright by Aripppp</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
 </html>
